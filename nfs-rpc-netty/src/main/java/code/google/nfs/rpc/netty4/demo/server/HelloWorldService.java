@@ -8,6 +8,6 @@ public interface HelloWorldService {
 
     public String sayHello(String word);
 
-
+    public String sayHi(String word);
 
 }

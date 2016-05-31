@@ -11,4 +11,9 @@ public class HelloWorldComponent implements HelloWorldService {
 
         return word + " return by server";
     }
+
+    @Override
+    public String sayHi(String word) {
+        return word + " return by server hi";
+    }
 }
